@@ -1,0 +1,103 @@
+
+GitHub Crash Course for Students (Live Session Notes)
+------------------------------------------------------
+
+1. What is GitHub?
+- GitHub is a cloud-based platform for version control and collaboration.
+- It uses Git underneath, which helps track code changes over time.
+- Think of it like Google Drive but for code—with powerful team features.
+
+2. Why Use GitHub?
+- Version control: Track every code change.
+- Collaboration: Multiple people can work on the same project.
+- Backup: Code stored safely online.
+- Portfolio: Showcase your work.
+- Open-source: Contribute to global projects.
+
+3. How to Create a GitHub Account
+1. Go to https://github.com
+2. Click “Sign Up”
+3. Fill in:
+   - Username
+   - Email
+   - Password
+4. Choose the free plan
+5. Verify your email
+6. Done!
+
+4. Logging In
+- Go to https://github.com
+- Click “Sign In”
+- Enter your credentials
+
+5. How to Create a Repository
+1. After login, click the “+” sign at the top right → New repository
+2. Fill in:
+   - Repository Name (e.g., MyProject)
+   - Optional description
+   - Public or Private
+3. (Optional) Tick "Initialize with README"
+4. Click “Create Repository”
+
+6. Install Git Locally
+- Download Git from https://git-scm.com
+- Install it with default settings
+
+Configure Git:
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+7. Clone a Repository
+- This downloads your GitHub repo to your local computer:
+git clone https://github.com/username/repo-name.git
+
+8. GitHub Workflow
+1. Make changes to your files
+2. Track changes using Git
+3. Push them to GitHub
+
+9. Basic Git Commands
+git add .                  → Stage changes
+git commit -m "Message"    → Commit with a message
+git push                   → Push changes to GitHub
+git pull                   → Pull latest changes from GitHub
+
+10. How to Update Repository
+- After making new changes:
+git add .
+git commit -m "Update details"
+git push
+
+11. Creating Branches (for new features)
+git checkout -b feature-branch
+# make changes
+git add .
+git commit -m "Added feature"
+git push origin feature-branch
+
+12. Pull Requests
+- After pushing a branch, go to GitHub
+- Click “Compare & pull request”
+- Add description
+- Click “Create pull request”
+- Used for merging changes into the main branch after review
+
+13. Other GitHub Features
+- README.md → Describes your project
+- Issues → Track bugs or features
+- Fork → Copy someone else’s project
+- Star → Bookmark repositories
+- GitHub Actions → Automate tasks (CI/CD)
+
+14. Tips
+- Always pull before pushing
+- Write clear commit messages
+- Use .gitignore to skip unnecessary files
+
+15. Live Demo Suggestion
+1. Sign up on GitHub
+2. Create a repo
+3. Clone it in VS Code
+4. Make a code change
+5. Push it to GitHub
+6. Show the live update
